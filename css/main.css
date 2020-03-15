@@ -312,16 +312,16 @@ nav {
 }
 
 /* Setting Lines after headers */
-h3 {
+h2 {
   position: relative;
 }
 
-h3 span {
+h2 span {
   background-color: white;
   padding-right: 10px;
 }
 
-h3:after {
+h2:after {
   content: "";
   position: absolute;
   bottom: 0;
