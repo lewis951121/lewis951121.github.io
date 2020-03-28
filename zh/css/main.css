@@ -71,7 +71,7 @@ h4, h5, h6 {
 }
 
 p, table, tr, td, ul, li, blockquote, nav, a, footer, dl, dt, dd {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-family: "Noto Sans SC", Helvetica, sans-serif;
   font-weight: 400;
 }
@@ -312,16 +312,16 @@ nav {
 }
 
 /* Setting Lines after headers */
-h2 {
+h3 {
   position: relative;
 }
 
-h2 span {
+h3 span {
   background-color: white;
   padding-right: 10px;
 }
 
-h2:after {
+h3:after {
   content: "";
   position: absolute;
   bottom: 0;
